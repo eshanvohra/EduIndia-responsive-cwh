@@ -6,23 +6,29 @@
     <meta http-equiv="X-UA-Compatible"  content="ie=edge">
     <title>EduIndia Tansforming Online Education</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
             <div class="logo"><img src="img/img.webp" alt="logo" ></div>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact us</a></li>
         </ul>
-        <div class="rightNav">
+        <div class="rightNav v-class-resp" >
             <input type="text" name="search" id="search">
             <button class="btn btn-sm">Search</button>
         </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
     </nav>
     <section class="background">
-    <div class="box-main">
+        <div class="box-main">
         <div class="firstHalf">
             <p class="text-big">The future of Education is here.</p>
             <p class="text-small">In this world of 7 billion people we need more educators. we are proud to say that  The future of Education is here.</p>
@@ -36,12 +42,12 @@
         </div>
     </div>
 </section>
-<section class="section">
+<section class="section" id="services">
     <div class="paras">
-    <p class="sectionTag text-big">Education in India
-    </p>
-    <p class="sectionSubTag text-small">India has made progress in increasing the attainment rate of primary education. In 2011, Approximately 75% of the population, aged between 7 and 10 years, was literate.[6] India's improved education system is often cited as one of the main contributors to its economic development.[7] Much of the progress, especially in higher education and scientific research, has been credited to various public institutions. While enrolment in higher education has increased steadily over the past decade, reaching a Gross Enrollment Ratio of 24% in 2013,[8] there still remains a significant distance to catch up with tertiary education enrolment levels of developed nations,[9] a challenge that will be necessary to overcome in order to continue to reap a demographic dividend from India's comparatively young population.</p>
-</div>
+        <p class="sectionTag text-big">Education in India
+        </p>
+        <p class="sectionSubTag text-small">India has made progress in increasing the attainment rate of primary education. In 2011, Approximately 75% of the population, aged between 7 and 10 years, was literate.[6] India's improved education system is often cited as one of the main contributors to its economic development.[7] Much of the progress, especially in higher education and scientific research, has been credited to various public institutions. While enrolment in higher education has increased steadily over the past decade, reaching a Gross Enrollment Ratio of 24% in 2013,[8] there still remains a significant distance to catch up with tertiary education enrolment levels of developed nations,[9] a challenge that will be necessary to overcome in order to continue to reap a demographic dividend from India's comparatively young population.</p>
+    </div>
     <div class="thumbNail">
         <img src="https://source.unsplash.com/1600x900/?university,teacher" class="imgFluid" alt="">
     </div>
@@ -55,19 +61,18 @@
         <img src="https://source.unsplash.com/1600x900/?html,javascript" class="imgFluid" alt="">
     </div>
 </section>
-<section class="section">
+<section class="section" id="about ">
     <div class="paras">
-    <p class="sectionTag text-big">Lets Grow Together..</p>
-    <p class="sectionSubTag text-small">Education Policy is prepared by the Centre Government and State Governments at national and state levels respectively. The National Policy on Education (NPE), 1986, has provided for environment awareness, science and technology education, and introduction of traditional elements such as Yoga into the Indian secondary school system.[27] A significant feature of India's secondary school system is the emphasis on inclusion of the disadvantaged sections of the society. Professionals from established institutes are often called to support in vocational training. Another feature of India's secondary school system is its emphasis on profession based vocational training to help students attain skills for finding a vocation of his/her choosing.[28] A significant new feature has been the extension of SSA to secondary education in the form of the Rashtriya Madhyamik Shiksha Abhiyan.[29]
-
-        Curriculum and School Education Boards</p>
+        <p class="sectionTag text-big">Lets Grow Together..</p>
+    <p class="sectionSubTag text-small">Education Policy is prepared by the Centre Government and State Governments at national and state levels respectively. The National Policy on Education (NPE), 1986, has provided for environment awareness, science and technology education, and introduction of traditional elements such as Yoga into the Indian secondary school system.[27] A significant feature of India's secondary school system is the emphasis on inclusion of the disadvantaged sections of the society. Professionals from established institutes are often called to support in vocational training. Another feature of India's secondary school system is its emphasis on profession based vocational training to help students attain skills for finding a vocation of his/her choosing.
+</p>
 </div>
-    <div class="thumbNail">
+<div class="thumbNail">
         <img src="https://source.unsplash.com/1600x900/?programming,students" class="imgFluid" alt="">
     </div>
 </section>
 <hr>
-<section class="contact">
+<section class="contact" id="contact">
     <h2>Contact Us</h2>
     <div class="form">
         <input type="text" name="name" id="name" placeholder="Enter Name">
@@ -80,8 +85,9 @@
 <footer class="background">
     <p class="text-footer">
         Copyright &copy; EduIndia Pvt. Ltd. 2000-2020 All Rights Reserved.
-
+        
     </p>
 </footer>
+<script src="resp.js"></script>
 </body>
 </html>
